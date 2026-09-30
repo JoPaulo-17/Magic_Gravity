@@ -1,61 +1,100 @@
-body{
+*{
+    padding: 0px;
     margin: 0px;
-    background-color: rgb(132, 132, 132);
 }
 
-header{
-    padding: 40px;
+body {
+    background-color: blue;
+    height: 100%;
+}
+
+.capa {
+    width: 100%;
+    object-fit: cover;
+    height: 150px; /*mudar depois*/
+}
+
+.infoHeader{
+    padding-top: 15px;
     background-color: black;
-    border-color: yellow;
 }
 
-.menu{
-    padding-top: 80px;
-    padding-left: 80px;
-    display: flex;
-    justify-content:center;
-    gap: 10%;
-   
-}
-
-h1,h2{
-    color: white;
+.titulo {
     text-align: center;
+    color: aqua;
 }
 
-p{
-    font-size: 40px;
-    font-family: "Times New Roman";
-   
+nav {
+    padding: 20px;
 }
-
-.texto-resumo{
+nav a {
+    text-decoration: none;
+    color: aqua;
+    padding: 30px;
     font-size: 20px;
-    font-family: "Times New Roman";
+    font-weight: bold;
 }
 
-.imagem{
+nav a:hover{
+   
+    color: rgb(39, 10, 229);
+}
+.introducao h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.introducao p {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.viloes {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 40px;
+    font-size: 20px;
+    gap: 5px;
+    background-color: #464544;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+    margin-left: 10px;
     margin-right: 10px;
 }
 
-.categoria-imagem img{
-   height: 140px;
-   width: auto;
+.quad {
+    flex:1;
+    padding: 45px;
+    background-color: #9d6a03;
+    border: 5px solid;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.categoria-imagem{
-    display: flex;
-    justify-content: space-between;
-    overflow-x: auto;
-    gap: 5px
-
+.quad img {
+    width: 100%;
+    height: 150px;
+    border: 3px solid;
+    border-radius: 60px;
+    object-fit: fill;
 }
 
-footer{
-    color: aliceblue;
-    margin-top: 5%;
-    padding: 55px;
+.quad:hover {
+    padding: 100px;
     background-color: black;
-    border-top: 5px dotted;
-    border-color: rgb(238, 74, 74);
+    color: aliceblue;
+    border: 5px solid black;
+}
+
+footer {
+    margin-top: 10px;
+    color: aliceblue;
+    background-color: black;
+    padding: 60px;
+    font-size: 25px;
 }
