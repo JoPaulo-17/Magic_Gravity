@@ -6,9 +6,9 @@ body{
 header{
     padding: 40px;
     background-color: black;
-    border-bottom: 5px dotted;
-    border-color: rgb(238, 74, 74);
+    border-color: yellow;
 }
+
 .menu{
     padding-top: 80px;
     padding-left: 80px;
@@ -18,7 +18,7 @@ header{
    
 }
 
-h1{
+h1,h2{
     color: white;
     text-align: center;
 }
@@ -34,8 +34,21 @@ p{
     font-family: "Times New Roman";
 }
 
-.imagem{
+.video{
     margin-right: 10px;
+}
+
+.categoria-video img{
+   height: 140px;
+   width: auto;
+}
+
+.categoria-video{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    gap: 5px
+
 }
 
 footer{
