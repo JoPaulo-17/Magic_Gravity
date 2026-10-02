@@ -14,14 +14,9 @@ body {
     height: 150px; /*mudar depois*/
 }
 
-.infoHeader{
-    padding-top: 15px;
-    background-color: black;
-}
-
 .titulo {
     text-align: center;
-    color: aqua;
+    color: black;
 }
 
 nav {
@@ -36,7 +31,6 @@ nav a {
 }
 
 nav a:hover{
-   
     color: aquamarine;
 }
 .introducao h2 {
