@@ -11,7 +11,7 @@ body {
 .capa {
     width: 100%;
     object-fit: cover;
-    height: 200px; /*mudar depois*/
+    height: 150px; /*mudar depois*/
 }
 
 .infoHeader{
@@ -58,7 +58,7 @@ nav a:hover{
     margin-top: 40px;
     font-size: 20px;
     gap: 5px;
-    background-color: #464544;
+    background-color: lightseagreen;
     padding-top: 30px;
     padding-bottom: 20px;
     border-radius: 40px;
