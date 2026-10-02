@@ -80,15 +80,15 @@ nav a:hover{
 
 .quad:hover {
     padding: 100px;
-    background-color: black;
+    background-color: magenta;
     color: aliceblue;
-    border: 5px solid black;
+    border: 5px solid magenta;
 }
 
 footer {
     margin-top: 10px;
     color: aliceblue;
-    background-color: black;
+    background-color: aqua;
     padding: 30px;
     font-size: 25px;
 }
