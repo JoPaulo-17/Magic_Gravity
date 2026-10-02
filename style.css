@@ -11,7 +11,7 @@ body {
 .capa {
     width: 100%;
     object-fit: cover;
-    height: 150px; /*mudar depois*/
+    height: 200px;
 }
 
 .titulo {
@@ -30,8 +30,8 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover{
-    color: aquamarine;
+nav a:hover{ 
+    color: aqua;
 }
 .introducao h2 {
     text-align: center;
